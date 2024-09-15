@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+<section class="container">
+    <section class="card">
+        <form class="checkout" id="card-form">
+
+            <label class="label" for="card-pan">Card number <span class="type"></span></label>
+            <section id="card-pan" class="field"></section>
+
+            <section class="col-2">
+                <section class="col">
+                    <label class="label" for="card-expiry">Expiry date</label>
+                    <section id="card-expiry" class="field"></section>
+                </section>
+
+                <section class="col">
+                    <label class="label" for="card-cvv">CVV</label>
+                    <section id="card-cvv" class="field"></section>
+                </section>
+            </section>
+
+            <button class="submit" type="submit">Pay Now</button>
+        </form>
+        <button class="clear" id="clear">Clear</button>
+    </section>
+</section>
+
+<script src="https://npe.access.worldpay.com/access-checkout/v2/checkout.js"></script>
+<script src="./functions.js"></script>
+
+</body>
+</html>

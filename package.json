@@ -1,0 +1,17 @@
+{
+  "name": "Web-SDK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions.js",
+  "dependencies": {
+    "react-bootstrap": "^2.10.4",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
